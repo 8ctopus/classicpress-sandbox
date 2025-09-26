@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+            "name": "docker",
+			"path": "."
+		},
+        {
+            "name": "localhost",
+			"path": "./sites/localhost/html/"
+		},
+        {
+            "name": "test",
+			"path": "./sites/test/html/"
+		}
+    ]
+}
