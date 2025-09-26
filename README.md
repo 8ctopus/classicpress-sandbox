@@ -1,8 +1,11 @@
-# classicpress docker sandbox
+# classicpress sandbox
 
-Play with classicpress in a docker sandbox
+Play with classicpress in a docker container
 
 docker-compose up &
 docker exec -it classicpress zsh
-cd sites/test/html
+cd test/html
 composer install
+
+make test.com point to localhost in your hosts file
+open the browser at http://test.com and begin the classicpress installation
