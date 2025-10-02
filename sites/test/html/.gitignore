@@ -2,8 +2,9 @@
 web/app/plugins/*
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
-web/app/themes/twentyseventeen/
-web/app/upgrade
+web/app/themes/air-light/*
+web/app/languages/*
+web/app/upgrade/*
 web/app/uploads/*
 !web/app/uploads/.gitkeep
 web/app/cache/*
@@ -25,4 +26,5 @@ web/.htaccess
 auth.json
 
 # WP-CLI
+wp
 wp-cli.local.yml
