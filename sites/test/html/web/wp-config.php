@@ -11,6 +11,8 @@ require_once ABSPATH . 'wp-settings.php';
 
 /** @disregard P1011 */
 if (!defined('WP_SHOW_DEPRECATIONS') || WP_SHOW_DEPRECATIONS === false) {
-    // hide classicpress jquery-ui deprecations
-    add_filter('deprecated_argument_trigger_error', '__return_false');
+    if (function_exists('add_filter')) {
+        // hide classicpress jquery-ui deprecations
+        add_filter('deprecated_argument_trigger_error', '__return_false');
+    }
 }
