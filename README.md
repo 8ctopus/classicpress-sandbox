@@ -1,6 +1,6 @@
 # classicpress sandbox
 
-Play with classicpress in a docker container
+Play with classicpress in docker
 
 - `docker-compose up &`
 - `docker exec -it classicpress zsh`
