@@ -134,6 +134,9 @@ Config::define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?? true);
 // Disable script concatenation
 Config::define('CONCATENATE_SCRIPTS', false);
 
+// articles auto-save
+Config::define('AUTOSAVE_INTERVAL', 300);
+
 /**
  * Debugging Settings
  */
