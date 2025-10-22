@@ -128,6 +128,15 @@ Config::define('DISALLOW_FILE_EDIT', true);
 // Disable plugin and theme updates and installation from the admin
 Config::define('DISALLOW_FILE_MODS', true);
 
+// multisite
+Config::define('WP_ALLOW_MULTISITE', true);
+Config::define('MULTISITE', false);
+Config::define('SUBDOMAIN_INSTALL', false);
+Config::define('DOMAIN_CURRENT_SITE', pathinfo(env('WP_HOME'), PATHINFO_BASENAME));
+Config::define('PATH_CURRENT_SITE', '/');
+Config::define('SITE_ID_CURRENT_SITE', 1);
+Config::define('BLOG_ID_CURRENT_SITE', 1);
+
 // Limit the number of post revisions
 Config::define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?? true);
 
