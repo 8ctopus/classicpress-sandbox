@@ -15,13 +15,12 @@
     "wpackagist-theme/air-light": "^9.0"
   },
   "require-dev": {
-    "roave/security-advisories": "dev-latest",
-    "laravel/pint": "^1.18"
+    "roave/security-advisories": "dev-latest"
   },
   "config": {
     "optimize-autoloader": true,
     "preferred-install": "dist",
-      "sort-packages": true,
+    "sort-packages": true,
     "allow-plugins": {
       "composer/installers": true,
       "johnpbloch/wordpress-core-installer": true,
