@@ -28,3 +28,7 @@ auth.json
 # WP-CLI
 wp
 wp-cli.local.yml
+
+# cache enabler
+web/app/advanced-cache.php
+web/app/settings/*
