@@ -146,6 +146,9 @@ Config::define('CONCATENATE_SCRIPTS', false);
 // articles auto-save
 Config::define('AUTOSAVE_INTERVAL', 300);
 
+// page caching
+Config::define('WP_CACHE', env('WP_CACHE') ?? false);
+
 /**
  * Debugging Settings
  */
